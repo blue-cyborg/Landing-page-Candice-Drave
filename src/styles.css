@@ -1,0 +1,65 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  font-size: 88px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  background: linear-gradient(
+    89deg,
+    rgb(21, 74, 189) 0.1%,
+    rgb(26, 138, 211) 51.5%,
+    rgb(72, 177, 234) 100.2%
+  );
+  margin: 0;
+  padding: 40px;
+  color: white;
+}
+
+.img-certificates {
+  border: 3px solid yellow;
+}
+
+.img-certificates:hover {
+  border: 3px solid blue;
+}
+
+.img-portfolio {
+  border: 3px solid yellow;
+}
+
+.img-portfolio:hover {
+  border: 3px solid blue;
+}
+
+.img-about-me {
+  border: 3px solid yellow;
+}
+
+.img-about-me:hover {
+  border: 3px solid blue;
+}
+
+.img-projects {
+  border: 3px solid yellow;
+}
+
+.img-projects:hover {
+  border: 3px solid blue;
+}
+
+.img-contact {
+  border: 3px solid yellow;
+}
+
+.img-contact:hover {
+  border: 3px solid blue;
+}
