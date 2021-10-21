@@ -1,29 +1,62 @@
-/* I love this font
-font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
-
-h1 {
-  font-size: 88px;
-}
-
-h2 {
-  font-size: 48px;
-}
-
-h1,
-h2 {
-  text-align: center;
-  background: linear-gradient(
+:root {
+  --primary-gradient: linear-gradient(
     89deg,
     rgb(21, 74, 189) 0.1%,
     rgb(26, 138, 211) 51.5%,
     rgb(72, 177, 234) 100.2%
   );
-  margin: 0;
-  padding: 20px;
+  --primary-color: #48b1ea;
+  --secondary-color: #154abd;
+  --default-font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+.intro {
+  text-align: center;
+  background: var(--primary-gradient);
   color: white;
 }
 
 /* begin classes related to index file*/
+
+.btn-branding {
+  background: #00ff00;
+  border: 3px solid #ffff00;
+  border-radius: 4px;
+  color: var(--secondary-color);
+  font-size: 25px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+
+.btn-branding:hover {
+  color: var(--secondary-color);
+  border: 3px solid #0000ff;
+}
+
+.intro {
+  padding: 50px 0;
+}
+
+.intro p {
+  font-size: 36px;
+  margin: 0;
+}
+
+.intro h1 {
+  font-size: 96px;
+  line-height: 2;
+}
+
+.intro h2 {
+  font-size: 48px;
+}
 
 .home-images {
   display: flex;
@@ -33,42 +66,35 @@ h2 {
 }
 
 .img-certificates {
-  border: 15px solid rgb(72, 177, 234);
+  border: 15px solid var(--primary-color);
 }
 
 .img-certificates:hover {
-  border: 15px solid blue;
+  border: 15px solid var(--secondary-color);
 }
 
 .img-portfolio {
-  border: 15px solid rgb(72, 177, 234);
+  border: 15px solid var(--primary-color);
 }
 
 .img-portfolio:hover {
-  border: 15px solid blue;
+  border: 15px solid var(--secondary-color);
 }
 
 .img-about-me {
-  border: 15px solid rgb(72, 177, 234);
+  border: 15px solid var(--primary-color);
 }
 
 .img-about-me:hover {
-  border: 15px solid blue;
+  border: 15px solid var(--secondary-color);
 }
 
 .img-projects {
-  border: 15px solid rgb(72, 177, 234);
+  border: 15px solid var(--primary-color);
 }
 
 .img-projects:hover {
-  border: 15px solid blue;
+  border: 15px solid var(--secondary-color);
 }
 
-.img-contact {
-  border: 15px solid rgb(72, 177, 234);
-}
-
-.img-contact:hover {
-  border: 15px solid blue;
-}
 /* end classes related to index file*/
