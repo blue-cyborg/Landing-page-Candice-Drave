@@ -1,6 +1,5 @@
-body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
+/* I love this font
+font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
 
 h1 {
   font-size: 88px;
@@ -20,46 +19,56 @@ h2 {
     rgb(72, 177, 234) 100.2%
   );
   margin: 0;
-  padding: 40px;
+  padding: 20px;
   color: white;
 }
 
+/* begin classes related to index file*/
+
+.home-images {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  text-align: center;
+}
+
 .img-certificates {
-  border: 3px solid yellow;
+  border: 15px solid rgb(72, 177, 234);
 }
 
 .img-certificates:hover {
-  border: 3px solid blue;
+  border: 15px solid blue;
 }
 
 .img-portfolio {
-  border: 3px solid yellow;
+  border: 15px solid rgb(72, 177, 234);
 }
 
 .img-portfolio:hover {
-  border: 3px solid blue;
+  border: 15px solid blue;
 }
 
 .img-about-me {
-  border: 3px solid yellow;
+  border: 15px solid rgb(72, 177, 234);
 }
 
 .img-about-me:hover {
-  border: 3px solid blue;
+  border: 15px solid blue;
 }
 
 .img-projects {
-  border: 3px solid yellow;
+  border: 15px solid rgb(72, 177, 234);
 }
 
 .img-projects:hover {
-  border: 3px solid blue;
+  border: 15px solid blue;
 }
 
 .img-contact {
-  border: 3px solid yellow;
+  border: 15px solid rgb(72, 177, 234);
 }
 
 .img-contact:hover {
-  border: 3px solid blue;
+  border: 15px solid blue;
 }
+/* end classes related to index file*/
