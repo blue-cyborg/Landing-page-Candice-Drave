@@ -28,20 +28,20 @@ h2,
   color: white;
 }
 
+/* navbar and footer section*/
 footer {
   background: var(--secondary-gradient);
 }
 
-/* navbar section*/
 .navbar {
   background: var(--secondary-gradient);
 }
-a.navbar-brand {
-  font: var(--special-font-family);
+
+.navbar-brand {
+  font-family: var(--special-font-family);
 }
 
 /* begin classes related to index file*/
-
 .btn-branding {
   border: 3px solid #ffff00;
   border-radius: 4px;
