@@ -8,7 +8,7 @@
   --primary-color: #48b1ea;
   --secondary-color: #154abd;
   --default-font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
-  --special-font-family: ;
+  --special-font-family: "Fredoka One", cursive;
 }
 
 body {
@@ -62,7 +62,7 @@ h2,
 .intro h1 {
   font-size: 96px;
   line-height: 2;
-  font-family: "Fredoka One", cursive;
+  font-family: var(--special-font-family);
 }
 
 .intro h2 {
