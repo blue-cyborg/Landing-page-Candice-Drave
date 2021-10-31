@@ -42,6 +42,12 @@ footer {
   font-family: var(--special-font-family);
 }
 
+/* top of every page that is not the index*/
+.top h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
 /* begin classes related to index file*/
 .btn-branding {
   border: 3px solid #ffff00;
