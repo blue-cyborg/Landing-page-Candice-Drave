@@ -27,6 +27,19 @@ h2,
   text-align: center;
   background: var(--primary-gradient);
   color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
 }
 
 /* navbar and footer section*/
@@ -42,12 +55,6 @@ footer {
   font-family: var(--special-font-family);
 }
 
-/* top of every page that is not the index*/
-.top h1 {
-  font-size: 36px;
-  margin: 0;
-}
-
 /* begin classes related to index file*/
 .btn-branding {
   border: 3px solid #ffff00;
@@ -60,8 +67,6 @@ footer {
 }
 
 .btn-branding:hover {
-  color: var(--secondary-color);
-  background: var(--secondary-gradient);
   border: 3px solid #0000ff;
 }
 
@@ -76,7 +81,7 @@ footer {
 
 .intro h1 {
   font-size: 96px;
-  line-height: 2;
+  line-height: 1.4;
   font-family: var(--special-font-family);
 }
 
@@ -124,3 +129,34 @@ footer {
 }
 
 /* end classes related to index file*/
+
+.btn-branding-outline {
+  background: var(--secondary-gradient);
+  border: 3px solid #ffff00;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  border: 3px solid #0000ff;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
