@@ -175,6 +175,18 @@ footer {
   padding: 120px 60px;
 }
 
+.title {
+  font-weight: 700;
+  border-bottom: 2px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.school {
+  border: 1px solid black;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
