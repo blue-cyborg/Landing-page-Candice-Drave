@@ -32,6 +32,7 @@ h2,
 
 h1 {
   font-size: 96px;
+  font-family: var(--special-font-family);
 }
 h2 {
   font-size: 64px;
@@ -40,6 +41,33 @@ h2 {
 p {
   font-size: 18px;
   line-height: 30px;
+}
+
+.description {
+  padding: 12px 60px;
+}
+
+.image-pizza {
+  display: block;
+  margin: 0 auto;
+  border: 7px solid var(--secondary-color);
+  border-radius: 10px;
+}
+
+.top h1 {
+  font-size: 65px;
+  margin: 0;
+}
+
+.top h2 {
+  font-family: var(--special-font-family);
+  font-size: 40px;
+  margin: 0;
+}
+
+.paper-head h1,
+h2 {
+  margin: 0;
 }
 
 /* navbar and footer section*/
@@ -145,6 +173,10 @@ footer {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.container-fluid {
+  width: 100%;
 }
 
 @media (max-width: 900px) {
