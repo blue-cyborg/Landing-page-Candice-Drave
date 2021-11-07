@@ -24,6 +24,14 @@ body {
 
 h1,
 h2,
+h3,
+h4 {
+  font-family: var(--special-font-family);
+  padding: 15px 0;
+}
+h1,
+h2,
+h3,
 .intro {
   text-align: center;
   background: var(--primary-gradient);
@@ -31,10 +39,11 @@ h2,
   margin: 0;
 }
 
-h1 {
+.hero h1 {
   font-size: 96px;
   font-family: var(--special-font-family);
 }
+
 h2 {
   font-size: 64px;
 }
@@ -44,15 +53,30 @@ p {
   line-height: 30px;
 }
 
+img {
+  border-radius: 7px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
 .description {
   padding: 12px 20px;
 }
 
-.image-pizza {
-  display: block;
-  margin: 0 auto;
-  border: 7px solid var(--secondary-color);
-  border-radius: 10px;
+.top {
+  border-radius: 7px;
 }
 
 .top h1 {
@@ -63,11 +87,6 @@ p {
 .top h2 {
   font-family: var(--special-font-family);
   font-size: 40px;
-  margin: 0;
-}
-
-.paper-head h1,
-h2 {
   margin: 0;
 }
 
