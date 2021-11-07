@@ -14,6 +14,7 @@
   --secondary-color: #154abd;
   --default-font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
   --special-font-family: "Fredoka One", cursive;
+  --default-box-shadow: 2px 2px 2px 2px rgb(110 71 71 / 30%);
 }
 
 body {
@@ -85,6 +86,7 @@ footer {
 
 /* begin classes related to index file*/
 .btn-branding {
+  box-shadow: var(--default-box-shadow);
   border: 3px solid #ffff00;
   border-radius: 4px;
   background: var(--secondary-gradient);
@@ -155,10 +157,15 @@ footer {
 .img-projects:hover {
   border: 15px solid var(--secondary-color);
 }
+.img-description {
+  font-family: var(--special-font-family);
+  font-size: 25px;
+}
 
 /* end classes related to index file*/
 
 .btn-branding-outline {
+  box-shadow: var(--default-box-shadow);
   background: var(--secondary-gradient);
   border: 3px solid #ffff00;
   border-radius: 4px;
