@@ -23,7 +23,6 @@ body {
 }
 
 h1,
-h2,
 h3,
 h4 {
   font-family: var(--special-font-family);
@@ -40,13 +39,13 @@ h3,
   margin: 0;
 }
 
-.hero h1 {
+h1 {
   font-size: 96px;
-  font-family: var(--special-font-family);
 }
 
 h2 {
   font-size: 64px;
+  font-family: var(--default-font-family);
 }
 
 p {
@@ -60,6 +59,7 @@ img {
 
 .round {
   border-radius: 7px;
+  font-family: var(--special-font-family);
 }
 
 .about-section h1 {
