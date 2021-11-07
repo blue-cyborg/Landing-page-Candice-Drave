@@ -29,6 +29,7 @@ h4 {
   font-family: var(--special-font-family);
   padding: 15px 0;
 }
+
 h1,
 h2,
 h3,
@@ -57,6 +58,10 @@ img {
   border-radius: 7px;
 }
 
+.round {
+  border-radius: 7px;
+}
+
 .about-section h1 {
   font-size: 64px;
   line-height: 80px;
@@ -73,10 +78,6 @@ img {
 
 .description {
   padding: 12px 20px;
-}
-
-.top {
-  border-radius: 7px;
 }
 
 .top h1 {
@@ -217,6 +218,14 @@ footer {
 
   h2 {
     font-size: 44px;
+  }
+
+  .top h1 {
+    font-size: 46px;
+  }
+
+  .top h2 {
+    font-size: 30px;
   }
   .project-description {
     padding: 0;
