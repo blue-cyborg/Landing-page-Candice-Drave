@@ -57,6 +57,21 @@ img {
   border-radius: 7px;
 }
 
+.message {
+  font-size: 17px;
+  color: var(--secondary-color);
+}
+
+.icon {
+  display: inline-block;
+  color: var(--primary-color);
+  font-size: 37px;
+}
+
+.icon:hover {
+  color: var(--secondary-color);
+}
+
 .round {
   border-radius: 7px;
   font-family: var(--special-font-family);
