@@ -157,7 +157,7 @@ img {
   color: var(--secondary-color);
 }
 
-.round {
+. {
   background: var(--primary-gradient);
   border-radius: 7px;
   font-family: var(--special-font-family);
@@ -252,15 +252,14 @@ footer {
     font-size: 25px;
   }
 
-  .about-section h1 {
+  .about-section h1,
+  .top h1,
+  .round h1 {
     font-size: 46px;
   }
 
-  .top h1 {
-    font-size: 46px;
-  }
-
-  .top h2 {
+  .top h2,
+  .round h2 {
     font-size: 30px;
   }
 
