@@ -208,6 +208,7 @@ footer {
 .btn-branding-outline {
   display: block;
   margin: 0 auto;
+  width: 200px;
   box-shadow: var(--default-box-shadow);
   background: var(--secondary-gradient);
   color: var(--secondary-color);
