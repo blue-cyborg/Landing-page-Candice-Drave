@@ -151,6 +151,11 @@ img {
 .school {
   border-bottom: 1px solid black;
 }
+
+.title {
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
 /*end classes related to about*/
 
 .message {
