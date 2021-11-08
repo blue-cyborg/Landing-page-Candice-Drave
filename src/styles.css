@@ -109,6 +109,7 @@ img {
 /* navbar and footer section*/
 footer {
   background: var(--secondary-gradient);
+  margin: 0;
 }
 
 .navbar {
