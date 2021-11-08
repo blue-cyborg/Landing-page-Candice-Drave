@@ -32,6 +32,7 @@ h6 {
   font-family: var(--special-font-family);
   font-weight: bold;
   padding: 15px 0;
+  text-align: center;
 }
 
 h1 {
@@ -42,7 +43,6 @@ h1 {
 h2 {
   font-size: 40px;
 }
-
 p {
   font-weight: normal;
   font-size: 16px;
@@ -158,7 +158,6 @@ img {
 }
 
 .round {
-  text-align: center;
   background: var(--primary-gradient);
   border-radius: 7px;
   font-family: var(--special-font-family);
@@ -208,6 +207,7 @@ footer {
 .btn-branding-outline {
   box-shadow: var(--default-box-shadow);
   background: var(--secondary-gradient);
+  color: var(--secondary-color);
   border: 3px solid #ffff00;
   border-radius: 4px;
   font-size: 18px;
