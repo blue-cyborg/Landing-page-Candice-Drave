@@ -266,6 +266,10 @@ footer {
     font-size: 30px;
   }
 
+  .btn-branding-outline {
+    font-size: 14px;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
