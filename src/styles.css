@@ -55,6 +55,10 @@ img {
   border-radius: 7px;
 }
 
+.personal {
+  margin: 0;
+}
+
 /*hero section*/
 
 .hero {
@@ -182,10 +186,6 @@ img {
 .top h1 {
   font-size: 64px;
   margin: 0;
-}
-
-.this-is-me {
-  padding-top: 15px;
 }
 
 /* navbar and footer section*/
