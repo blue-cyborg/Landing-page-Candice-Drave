@@ -184,6 +184,10 @@ img {
   margin: 0;
 }
 
+.this-is-me {
+  padding-top: 15px;
+}
+
 /* navbar and footer section*/
 footer {
   background: var(--secondary-gradient);
