@@ -59,6 +59,14 @@ img {
   margin: 0;
 }
 
+.paper {
+  color: var(--primary-color);
+}
+
+.container-paper {
+  margin: 15px;
+}
+
 /*hero section*/
 
 .hero {
