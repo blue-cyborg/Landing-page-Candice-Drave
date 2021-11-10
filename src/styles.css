@@ -59,6 +59,11 @@ img {
   margin: 0;
 }
 
+.stats {
+  display: block;
+  margin: 0 auto;
+}
+
 .paper {
   color: var(--primary-color);
 }
