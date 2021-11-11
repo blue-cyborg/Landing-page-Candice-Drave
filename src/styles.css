@@ -182,7 +182,7 @@ img {
   background: var(--primary-gradient);
   border-radius: 7px;
   font-family: var(--special-font-family);
-  padding: 8px;
+  padding: 3px;
 }
 
 .description {
