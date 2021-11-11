@@ -55,8 +55,9 @@ img {
   border-radius: 7px;
 }
 
-.citation-container {
-  display: flex;
+.ref-container {
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .content-container {
