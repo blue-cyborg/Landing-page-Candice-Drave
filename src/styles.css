@@ -270,8 +270,10 @@ footer {
   }
 
   .message {
+    font-family: var(--special-font-family);
     font-size: 13px;
     color: var(--secondary-color);
+    text-align: center;
   }
 
   .icon {
