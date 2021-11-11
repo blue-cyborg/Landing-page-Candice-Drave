@@ -55,11 +55,6 @@ img {
   border-radius: 7px;
 }
 
-.ref-container {
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
 .content-container {
   padding: 60px 20px;
 }
@@ -270,6 +265,11 @@ footer {
 
   footer {
     padding: 10px;
+  }
+
+  .ref-container {
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   .img-fluid {
