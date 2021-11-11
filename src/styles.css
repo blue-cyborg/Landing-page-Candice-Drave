@@ -232,10 +232,6 @@ footer {
   border-bottom: 2px solid blue;
 }
 
-#navbarNavAltMarkup {
-  justify-content: right;
-}
-
 .navbar-brand {
   font-family: var(--special-font-family);
 }
