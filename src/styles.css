@@ -227,9 +227,12 @@ footer {
 
 .navbar {
   background: var(--secondary-gradient);
-  height: 80px;
   padding: 25px 20px;
-  border-bottom: 2px solid blue;
+  border-bottom: 3px solid blue;
+}
+
+#navbarNavAltMarkup {
+  justify-content: right;
 }
 
 .navbar-brand {
