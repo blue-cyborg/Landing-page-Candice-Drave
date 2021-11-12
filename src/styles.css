@@ -278,7 +278,7 @@ footer {
   }
 
   .ref-container {
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
   }
 
   .img-fluid {
