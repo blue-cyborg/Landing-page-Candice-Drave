@@ -286,7 +286,7 @@ footer {
   .ref-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 95%;
+    max-width: 85%;
   }
 
   .img-fluid {
