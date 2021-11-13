@@ -269,6 +269,11 @@ p {
     font-size: 46px;
   }
 
+  .btn-branding {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
   .btn-branding-outline {
     font-size: 15px;
   }
