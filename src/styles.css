@@ -209,6 +209,10 @@ p {
   justify-content: right;
 }
 
+.pages {
+  text-align: center;
+}
+
 .paper {
   color: var(--primary-color);
 }
